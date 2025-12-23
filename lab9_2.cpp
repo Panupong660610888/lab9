@@ -3,7 +3,7 @@ using namespace std;
 
 //Write the function printO() here
 
-void printO(int N,int M){
+void printO(int N,int M){ 
     if (N <= 0) cout << "Invalid input";
     else if (M <= 0) cout <<"Invalid input";  
     else{ 
