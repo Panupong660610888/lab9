@@ -28,7 +28,7 @@ int main(){
 	//you can change input argument of 'setprecision()' to see the effect
 	cout << fixed << setprecision(2);
 	
-		for (int year = 1; prevBalance > 0; year++ ){
+	for (int year = 1; prevBalance > 0; year++ ){
 		double interest = prevBalance * (interest_rate/100);
 		double total = prevBalance + interest;
 		if (total <= payment) payment = total;
@@ -43,6 +43,6 @@ int main(){
 	    cout << "\n";	
 	
         prevBalance = newBalance;
-		}
+	}
 	return 0; 
 }
