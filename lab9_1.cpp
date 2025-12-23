@@ -44,5 +44,5 @@ int main(){
 	
         prevBalance = newBalance;
 		}
-	return 0;
+	return 0; 
 }
