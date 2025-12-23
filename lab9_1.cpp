@@ -2,9 +2,10 @@
 #include<iomanip> //For using setw(), setprecision(), ...
 using namespace std;
 
-double prevBalance, interest_rate, payment;
+int main(){
 
-int main(){	
+	double prevBalance, interest_rate, payment;
+	
 	cout << "Enter initial loan: ";
 	cin >> prevBalance;
 	cout << "Enter interest rate per year (%): ";
